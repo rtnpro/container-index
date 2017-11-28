@@ -7,7 +7,7 @@ Projects:
     git-path: kubernetes/master
     target-file: Dockerfile
     desired-tag: latest
-    notify-email: rtnpro@redhat.com
+    notify-email: container-status-report@centos.org
     depends-on: centos/centos:latest
 
   - id: 26
@@ -18,7 +18,7 @@ Projects:
     git-path: kubernetes/apiserver
     target-file: Dockerfile
     desired-tag: latest
-    notify-email: rtnpro@redhat.com
+    notify-email: container-status-report@centos.org
     depends-on: 
       - centos/centos:latest
       - centos/kubernetes-master:latest
